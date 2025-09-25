@@ -1,4 +1,4 @@
-# crm w/ Contact Service
+# CRM w/ Contact Service
 An extensible Lead/Contact Manager for CRM application
 
 This is a Laravel-based service for managing contacts in a CRM system.  
