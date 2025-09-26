@@ -1,5 +1,4 @@
 <?php
-// app/Services/Contact/ContactService.php
 
 namespace App\Services\Contact;
 
@@ -17,7 +16,7 @@ class ContactService
         $this->sources[$key] = $source;
     }
 
-    public function createFromSource(string $sourceKey, ContactDataInterface $data): ContactSourceInterface
+    public function createFromSource(string $sourceKey, ContactDataInterface $data)
     {
         if (!isset($this->sources[$sourceKey])) {
             throw new InvalidArgumentException("Unsupported source: {$sourceKey}");
